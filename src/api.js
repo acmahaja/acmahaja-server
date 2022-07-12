@@ -18,6 +18,6 @@ router.get("*", (req, res) => {
   });
 });
 
-app.use("/data", router);
+app.use("/api", router);
 
 module.exports.handler = serverless(app);
